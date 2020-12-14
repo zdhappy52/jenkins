@@ -1,4 +1,4 @@
-package com.example;
+package com.example.jenkins;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 
 @RestController
-public class myConntroller {
+public class  myConntroller {
 
     @GetMapping("/get")
     public String get(){
